@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-danger: #FF3B30;
+  --color-edu: #00BFA5;
+  --font-inter: var(--font-inter);
+  --font-jakarta: var(--font-jakarta);
+  --font-sans: var(--font-inter), sans-serif;
+  --font-heading: var(--font-jakarta), sans-serif;
+  --font-manrope: var(--font-jakarta), sans-serif; /* alias lama untuk mencegah style rusak */
+}
+
+:root {
+  --background: #121212;
+  --foreground: #f8f9fa;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Fallback for hardcoded bracket classes */
+@font-face {
+  font-family: 'Inter';
+  src: local(var(--font-inter));
+}
+@font-face {
+  font-family: 'Manrope';
+  src: local(var(--font-jakarta));
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: local(var(--font-jakarta));
+}

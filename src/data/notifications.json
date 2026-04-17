@@ -1,0 +1,58 @@
+{
+  "static_top": {
+    "id": "platform-update",
+    "type": "info",
+    "title": "Pembaruan Platform",
+    "message": "Mosqita kini terhubung dengan data cuaca real-time Kota Malang. Sistem otomatis memantau kelembapan dan suhu udara untuk mendeteksi potensi perkembangbiakan nyamuk Aedes aegypti di lingkungan Anda."
+  },
+  "daily_insights": [
+    {
+      "id": "insight-0",
+      "type": "insight",
+      "title": "Wawasan Harian",
+      "message": "Nyamuk Aedes aegypti paling aktif menggigit pada pagi hari (08.00–10.00) dan sore hari (15.00–17.00). Tingkatkan kewaspadaan di jam-jam tersebut."
+    },
+    {
+      "id": "insight-1",
+      "type": "insight",
+      "title": "Wawasan Harian",
+      "message": "Telur nyamuk Aedes aegypti mampu bertahan dalam kondisi kering hingga satu tahun lebih — dan langsung menetas begitu air tersedia kembali. Itulah mengapa 3M Plus harus rutin."
+    },
+    {
+      "id": "insight-2",
+      "type": "insight",
+      "title": "Wawasan Harian",
+      "message": "Hanya nyamuk betina yang menggigit manusia karena membutuhkan protein darah untuk perkembangan telurnya. Satu nyamuk betina dapat bertelur 100–200 butir setiap siklus."
+    },
+    {
+      "id": "insight-3",
+      "type": "insight",
+      "title": "Wawasan Harian",
+      "message": "Radius terbang nyamuk Aedes aegypti hanya sekitar 100 meter dari tempat berkembang biak. Jika ada nyamuk di rumah Anda, sarangnya kemungkinan besar sangat dekat."
+    },
+    {
+      "id": "insight-4",
+      "type": "insight",
+      "title": "Wawasan Harian",
+      "message": "Siklus hidup nyamuk dari telur hingga dewasa hanya 8–10 hari. Menguras bak mandi seminggu sekali sudah cukup untuk memutus rantai hidupnya sebelum sempurna menetas."
+    },
+    {
+      "id": "insight-5",
+      "type": "insight",
+      "title": "Wawasan Harian",
+      "message": "Fogging hanya efektif membunuh nyamuk dewasa yang terbang, namun tidak menyentuh jentik di dalam air. 3M Plus tetap menjadi strategi utama yang paling efektif."
+    },
+    {
+      "id": "insight-6",
+      "type": "insight",
+      "title": "Wawasan Harian",
+      "message": "Sereh Merah mengandung senyawa Citronellal dan Geraniol yang terbukti mengusir nyamuk secara alami. Cukup tanam di pot dan letakkan di dekat pintu masuk rumah."
+    }
+  ],
+  "static_bottom": {
+    "id": "gerakan-3m",
+    "type": "shield",
+    "title": "Gerakan 3M Plus",
+    "message": "Menguras tempat penampungan air, Menutup rapat wadah penyimpanan, dan Memanfaatkan kembali barang bekas. Ditambah langkah Plus: gunakan repelen, pasang kelambu, dan pelihara ikan pemakan jentik."
+  }
+}

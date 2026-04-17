@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "last_updated": "26 Januari 2026",
+    "source": "Dinas Kesehatan Kota Malang",
+    "reference": "Rilis Pers Resmi"
+  },
+  "summary": {
+    "year": 2025,
+    "total_cases": 715,
+    "deaths": 5,
+    "recovered": 692,
+    "active": 18
+  },
+  "yearly_trend": [
+    { "year": "2023", "cases": 462, "deaths": 4 },
+    { "year": "2024", "cases": 777, "deaths": 4 },
+    { "year": "2025", "cases": 715, "deaths": 5 }
+  ],
+  "districts": [
+    {
+      "id": "sukun",
+      "name": "Sukun",
+      "cases": 192,
+      "status": "Zona Merah",
+      "trend_desc": "Kasus Tertinggi"
+    },
+    {
+      "id": "lowokwaru",
+      "name": "Lowokwaru",
+      "cases": 156,
+      "status": "Waspada",
+      "trend_desc": "Tren Naik"
+    },
+    {
+      "id": "blimbing",
+      "name": "Blimbing",
+      "cases": 145,
+      "status": "Waspada",
+      "trend_desc": "Tren Naik"
+    },
+    {
+      "id": "klojen",
+      "name": "Klojen",
+      "cases": 124,
+      "status": "Siaga",
+      "trend_desc": "Perhatian Ekstra"
+    },
+    {
+      "id": "kedungkandang",
+      "name": "Kedungkandang",
+      "cases": 98,
+      "status": "Terkendali",
+      "trend_desc": "Paling Aman"
+    }
+  ],
+  "key_indicators": {
+    "abj": {
+      "current_value": 92,
+      "target_value": 95,
+      "unit": "%",
+      "warning": "Masih di bawah target ideal nasional (95%)."
+    }
+  }
+}
