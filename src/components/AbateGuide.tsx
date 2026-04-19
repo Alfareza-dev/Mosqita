@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 
 const AmanIcon = () => (
   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -18,20 +17,7 @@ export const AbateGuide = () => {
     <div className="flex flex-col gap-6 pt-2 md:pt-0">
       <h2 className="text-red-300 text-lg md:text-xl lg:text-2xl font-bold font-heading px-2 lg:px-0">Panduan Larvasida (Abate)</h2>
       
-      {/* Ilustrasi Abate */}
-      <div className="w-full relative">
-        <Image 
-          src="https://placehold.co/600x400/1C1B1B/FF3B30.png?text=Ilustrasi+Abate"
-          alt="Ilustrasi Abate"
-          width={600}
-          height={400}
-          className="w-full h-auto object-cover rounded-xl border border-white/5"
-          unoptimized
-        />
-      </div>
-
-      
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2">
         {/* Aman Digunakan Card */}
         <div className="p-5 bg-teal-500/10 rounded-3xl flex flex-col items-start gap-4 border border-teal-500/20 hover:bg-teal-500/20 transition-colors h-full">
           <div className="w-12 h-12 bg-teal-400/20 rounded-full flex justify-center items-center text-teal-400">
@@ -61,7 +47,7 @@ export const AbateGuide = () => {
         {/* Dosis Presisi Banner - Full Width */}
         <div className="sm:col-span-2 min-h-[180px] p-6 lg:p-8 relative bg-zinc-800 rounded-3xl flex flex-col justify-end items-start overflow-hidden border border-stone-700/50 hover:border-red-400/30 transition-colors group mt-2">
           <div className="flex flex-col z-10 gap-2 w-full max-w-[70%] md:max-w-[80%]">
-            <h3 className="text-stone-200 text-lg md:text-xl font-bold font-heading">Dosis Presisi Temephos</h3>
+            <h3 className="text-stone-200 text-lg md:text-xl font-bold font-heading">Dosis Presisi Abate</h3>
             <p className="text-red-200/90 text-xs md:text-sm font-normal font-sans leading-relaxed">
               Gunakan 1 gram bubuk Abate (setengah sendok teh) untuk 10 liter air. Taburkan perlahan ke dalam bak mandi atau genangan. Tidak perlu diaduk. Efektif hingga 2-3 bulan.
             </p>
