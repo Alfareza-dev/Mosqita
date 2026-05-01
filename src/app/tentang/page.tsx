@@ -55,9 +55,9 @@ export default function TentangPage() {
         </div>
 
         {/* Team Grid (Retained) */}
-        {/* <div className="w-full">
+        <div className="w-full">
           <AboutTeam />
-        </div> */}
+        </div>
 
         {/* Mini Footer */}
         <div className="mt-8 text-sm text-stone-500 font-medium font-sans text-center">
